@@ -25,14 +25,11 @@ if x % 2 == 0:
 else:
     print("Odd") """
 
-""" x = float(input("Enter Your Bill"))
-values = [0, 5 , 10 , 15 ,25 ]
+y = input("How was your service, Excellent, Great, Mediocore, Bad:")
+x = float(input("Enter Your Bill:"))
+""" if y == Excellent: """
 
-if x """
+   
 
 
-
-values = [1,2.23,5,7,2,30,15]
-print(values)
-for i in values:
-    print(i)
+    
