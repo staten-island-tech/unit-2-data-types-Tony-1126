@@ -32,12 +32,14 @@ word_values = {
 }
 
 y = input("How was your service, Excellent, Great, Mediocore, Bad:")
-x = float(input("Enter Your Bill:"))
+x = input("Enter Your Bill:")
 print(x*y)
 
 
 
    
+
+
 
 
     
