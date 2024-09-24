@@ -24,10 +24,18 @@ if x % 2 == 0:
     print("Even")
 else:
     print("Odd") """
+word_values = {
+    "Bad": 0,
+    "Mediocore": 0.15,
+    "Great": 0.20,
+    "Excellent": 0.25
+}
 
 y = input("How was your service, Excellent, Great, Mediocore, Bad:")
 x = float(input("Enter Your Bill:"))
-""" if y == Excellent: """
+print(x*y)
+
+
 
    
 
