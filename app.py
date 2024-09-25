@@ -45,6 +45,8 @@ Bill = float(input("Enter Your Bill:"))
 
 tip_as_percent = Tip / 100
 total_tip_amount = Bill * tip_as_percent
+
+print(f"The Tip Amount is $:{total_tip_amount}")
 """ if Tip == 0:
     print((Bill/100)* 0)
 elif Tip == 15:
