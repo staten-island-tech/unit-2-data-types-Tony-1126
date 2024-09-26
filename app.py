@@ -40,23 +40,36 @@ word_values = {
     "Great": 0.20,
     "Excellent": 0.25
 } """   
-Tip = input("How Much Would You Like To Tip? 0, 15, 20, or 25 Percent:")
-Bill = float(input("Enter Your Bill:"))
+""" bill = (input("Enter Your Bill:"))
+x = float(bill)
 
-tip_as_percent = Tip / 100
-total_tip_amount = Bill * tip_as_percent
+tip = input("How Much Would You Like To tip? 0, 15, 20 , 25 Percent?:")
 
-print(f"The Tip Amount is $:{total_tip_amount}")
-""" if Tip == 0:
-    print((Bill/100)* 0)
-elif Tip == 15:
-    print((Bill*0.15)* 15)
-elif Tip == 20:
-    print((Bill*0.20)* 20)
-elif Tip == 25:
-    print((Bill*0.25)* 25)
-else:
-    print("Choose a valid percentage") """
+tip0 = x*0
+tip15 = x*.15
+tip20 = x*.20
+tip25 = x*.25
+
+if tip == "0":
+    print(f"You little cheapskate only tipping, ${tip0}")
+if tip == "15":
+    print(f"Could've tipped more than, ${tip15}")
+if tip == "20":
+    print(f"Thanks for the tip of, ${tip20}")
+if tip == "20":
+    print(f"Wow!, TYSM for the tip of, ${tip25}")
+ """
+a = int(input("Enter an integer:"))
+for i in range(2,a):
+    if a%i == 0:
+        print(f"Factors,:{i}")
+        
+
+
+""" for i in range(2,a+1)
+if a%i == 0 and b%i == 0: """
+
+
 
    
 
