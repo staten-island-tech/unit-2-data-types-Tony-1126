@@ -59,15 +59,19 @@ if tip == "20":
 if tip == "20":
     print(f"Wow!, TYSM for the tip of, ${tip25}")
  """
-a = int(input("Enter an integer:"))
+""" a = int(input("Enter an integer:"))
 for i in range(2,a):
     if a%i == 0:
-        print(f"Factors,:{i}")
-        
+        print(f"Factors,:{i}") """
 
 
-""" for i in range(2,a+1)
-if a%i == 0 and b%i == 0: """
+a = int(input("Enter an integer"))
+b = int(input("Enter an integer"))
+for i in range(2,a+1):
+    if a%i == 0 and b%i == 0:
+        print(i)
+
+
 
 
 
