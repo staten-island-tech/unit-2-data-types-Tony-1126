@@ -64,12 +64,21 @@ for i in range(2,a):
     if a%i == 0:
         print(f"Factors,:{i}") """
 
+
 a = int(input("Enter an integer"))
 b = int(input("Enter an integer"))
-for i in range(2,a+1):
-    if a%i == 0 and b%i == 0:
-        gcf = i
-        print(f"Factors of {a} and {b} is {gcf}")
+if a>b:
+   small = b
+else:
+   small = a
+for i in range(2, small + 1):
+    if ((a%i == 0) and (b%i == 0)):
+      gcf = i
+      print(f"Factors:{gcf}")
+
+        
+
+
 
        
     
