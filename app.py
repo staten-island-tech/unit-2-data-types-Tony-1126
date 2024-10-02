@@ -71,11 +71,12 @@ if a>b:
    small = b
 else:
    small = a
+   gcf = 0
 for i in range(2, small + 1):
     if ((a%i == 0) and (b%i == 0)):
-      gcf = i
-      print(f"Factors:{gcf}")
+       gcf = i
 
+print(f"Greatest Common Factor:{gcf}")
         
 
 
